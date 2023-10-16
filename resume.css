@@ -1,0 +1,107 @@
+/* The style inspiration for my resume is Avril Lavine, incorperating hot pink and black to show teen angst*/
+* {margin-block-start: 2em; } /*this selector makes the margins for the page 2em wider giving the page a bit mroe of a margin around the edge of the computer screen*/
+h1 {font-size: 60px;
+	text-align: center;
+	color: Indianred;
+	}
+h2 {font-size: 50px;
+	text-align:center;
+	color: Indianred;
+	}
+
+#places {text-align:center; /*From w3schools, https://www.w3schools.com/html/html_id.asp, gave each map discri[tion a different color to show some diversity while still keeping on theme with white and variations of pink*/
+	color:pink;
+	}
+#map {text-align: center; /*From w3schools, https://www.w3schools.com/html/html_id.asp, this selector make the color of the text white*/
+	color:white; 
+}
+
+#uottawa {text-align: center;/*From w3schools, https://www.w3schools.com/html/html_id.asp, this selector make the caption a hot pink*/
+	color:hotpink;
+	}
+
+
+#iceland {text-align: left;/* From w3schools, https://www.w3schools.com/html/html_id.asp this selector makes this caption a lighter pink a light coral to be exact*/
+	color: lightcoral;
+}
+p {font-size:30px;
+	text-align: center;
+	color: black;
+	}	
+/* the format to make the external links into buttons came from the w3school website, https://www.w3schools.com/css/css_link.asp, i changed the colors and words displayed in each button */
+a:link, a:visited {
+  background-color: white;
+  color: IndianRed;
+  border: 4px solid IndianRed;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+/*taken from w3schools, https://www.w3schools.com/css/css_link.asp i wanted to have an active and a non active look to show when your curser is over the link */
+a:hover, a:active {
+  background-color: IndianRed;
+  color: white;
+}
+/*taken from w3schools https://www.w3schools.com/html/html_classes.asp I wanted to have some sepearation between the bacground of my page and the actual choices for the links so i changed the color of the background by adding in a nav*/
+.nav {
+  background-color: MistyRose; 
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+/*taken from w3schools https://www.w3schools.com/html/html_classes.asp I made these pink and white to fit the theme of my website*/
+.nav li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+}
+div {border: 2px solid white; /* I added a boarder around these elements beacasue i neded to break up my imformation i didnt like that there were floating elements on a black page*/
+	padding: 10px;}
+	
+body {background-color: black;
+	}
+/*Iwanted both h2 and h1 to be the same on each page to have some sense of continuity within the two pages*/
+h1 {font-weight: bold;
+	text-align: center;
+	text-transform:uppercase;
+	color:pink; 
+	}
+h2 {text-align:center;
+	color: white;
+	margin-inline-start: 1px;
+	}
+h3 {font-weight:bold;
+	font-size: 30px;
+	text-align:left;
+	color:pink;
+	}
+h4 {text-align:center;
+	color:white;
+	}
+p {text-align:center;
+	color:pink;
+	}
+dl  {color:white;
+	}
+/* the table format cam from w3schools https://www.w3schools.com/html/html_tables.asp, i changed the color and the ulternating row color to suit what i wanted, changed from even to odd*/
+table {
+	border-collapse: collapse;
+	width: 100%;
+	}
+
+td, th { /* i kept the white boarder so it will stand out on the page*/
+	color: white;
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(odd) { /*this is where i changed the even to odd to get the top row of the table to be pink instead of black*/
+  background-color: #e08aa5;
+	}	
+	/*this is a link to my second page and i made it pink and centered in the block it is more pretty*/
+a {text-align:center;
+	color: pink;
+	}
