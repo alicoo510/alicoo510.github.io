@@ -5,7 +5,7 @@ h1 {font-size: 60px;
 	text-align: center;
 	color: Indianred;
 	}
-h2 {font-size: 50px;
+h2 {font-size: 40px;
 	text-align:center;
 	color: Indianred;
 	}
@@ -59,7 +59,8 @@ a:hover, a:active {
   padding: 20px;
 }
 div {border: 2px solid white; /* I added a boarder around these elements beacasue i neded to break up my imformation i didnt like that there were floating elements on a black page*/
-	padding: 10px;}
+	padding: 10px;
+    align: center;}
 	
 body {background-color: black;
 	}
